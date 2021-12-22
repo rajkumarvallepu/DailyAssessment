@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>co.spraybot</groupId>
+    <artifactId>internal-core</artifactId>
+    <version>0.2.0</version>
+  </parent>
+
+  <groupId>co.spraybot</groupId>
+  <artifactId>testcase_1</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Spraybot testcase_1</name>
+  <description>[INSERT DESCRIPTION]</description>
+  <url>https://github.com/spraybot/testcase_1</url>
+
+  <scm>
+    <connection>scm:git:git@github.com:spraybot/testcase_1</connection>
+    <developerConnection>scm:git:git@github.com:spraybot/testcase_1</developerConnection>
+    <url>https://github.com/spraybot/testcase_1</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <dependencies>
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-junit5</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

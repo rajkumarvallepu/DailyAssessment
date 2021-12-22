@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML rules verification done by xml name space -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Extensible Markup Language Name Space -->
+    <!-- id is also name of bean and name is consider as alias name -->
+<bean class = "Product" id = "p1" scope="singleton">
+	<property name = "productName" value = "SpringBoot"></property>
+	<property name = "productID" value = "001"></property>
+	<property name = "productType" value = "Software"></property>
+</bean>
+    
+    <bean class="Customer" id ="c1" scope="singleton">
+    <property name="customerName" value="Pavan"></property>
+    <property name="phoneNumber" value = "8123456789"></property>
+    <property name="id" value = "01"></property>
+    </bean>
+    
+<!--  Injection using setters  -->
+    
+    <bean class = "Order" id = "o1" scope = "prototype">
+    	<property name = "product" ref = "p1"></property>
+    	<property name = "customer" ref = "c1"></property>
+    </bean>
+    
+ </beans>

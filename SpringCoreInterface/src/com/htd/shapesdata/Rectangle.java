@@ -1,0 +1,49 @@
+package com.htd.shapesdata;
+
+import com.htd.shapes.*;
+
+public class Rectangle implements ShapesMeasurements {
+	private Double length, breadth, height;
+
+	@Override
+	public Double area() {
+		// TODO Auto-generated method stub
+		return this.length*this.breadth;
+	}
+
+	@Override
+	public Double volume() {
+		// TODO Auto-generated method stub
+		return this.length*this.breadth*this.height;
+	}
+
+	public Double getLength() {
+		return length;
+	}
+
+	public void setLength(Double length) {
+		this.length = length;
+	}
+
+	public Double getBreadth() {
+		return breadth;
+	}
+
+	public void setBreadth(Double breadth) {
+		this.breadth = breadth;
+	}
+
+	public Double getHeight() {
+		return height;
+	}
+
+	public void setHeight(Double height) {
+		this.height = height;
+	}
+
+	@Override
+	public String toString() {
+		return "Rectangle [length=" + length + ", breadth=" + breadth + ", height=" + height + "]";
+	}
+	
+}

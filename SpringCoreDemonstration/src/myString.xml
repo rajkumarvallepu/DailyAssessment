@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+	<bean class="Employee" name="emp123">
+	<property name="empID" value="802043"></property>
+	<property name="name" value=Rajkumar"></property>
+	<property name="address" value="Somewhere"></property>
+	<property name="phone" value="1234567890"></property>
+	<property name="salaryPaid" value="false"></property>
+	</bean>
+</beans>

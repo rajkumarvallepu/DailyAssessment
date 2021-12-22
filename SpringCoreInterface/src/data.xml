@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML rules verification done by xml name space -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--Bean Definition Here	-->
+<bean class="com.ShapesData.Circle" name="myCircle">
+	<property name="radius" value="7"></property>
+</bean>
+<bean class="com.ShapesData.Rectangle" name="myRectangle">
+	<property name="breadth" value="7"></property>
+	<property name="length" value="8"></property>
+	<property name="height" value="6"></property>
+</bean>	
+</beans>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.jdbc_Demo&apos; to &apos;com.htd.jdbcdemo&apos;&#x0D;&#x0A;- Original project: &apos;JDBCConncetionTest&apos;&#x0D;&#x0A;- Original element: &apos;JDBCConncetionTest/src/com.jdbc_Demo&apos;&#x0D;&#x0A;- Renamed element: &apos;JDBCConncetionTest/src/com.htd.jdbcdemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings&#x0D;&#x0A;- Rename subpackages of the package" description="Rename package &apos;com.jdbc_Demo&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.jdbc_Demo" name="com.htd.jdbcdemo" qualified="false" references="true" stamp="1640164491618" textual="false" version="1.0"/>
+</session>
