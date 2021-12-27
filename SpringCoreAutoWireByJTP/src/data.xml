@@ -4,7 +4,7 @@
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<bean id="b" class="com.data.B"></bean>  
-<bean id="a" class="com.data.A" autowire="byName"></bean>       	
+<bean id="b" class="com.htd.data.B"></bean>  
+<bean id="a" class="com.htd.data.A" autowire="byName"></bean>       	
         	        	
 </beans>
