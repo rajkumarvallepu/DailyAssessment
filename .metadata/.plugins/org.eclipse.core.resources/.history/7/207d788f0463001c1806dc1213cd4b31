@@ -1,9 +1,0 @@
-Create one java class Sales.
- 
- Add two methods:    
- 
- a.  checkProductId() -> A public static method returning Boolean value. 
- If the value is in between 10001 to 99999 then it will return true else false.  
- 
-  b.  getAmount() -> A public method returning String value.
-   If the value of size field is "S" ,it should return  amount 30$, if the size is "M" it should return 50$ else 80$.
